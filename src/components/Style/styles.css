@@ -1,0 +1,35 @@
+#container {
+  width: 400px;
+  background-color: aliceblue;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.list {
+  margin: 15px 0;
+}
+
+.list > li {
+  background-color: antiquewhite;
+  padding: 5px;
+  margin-bottom: 2px;
+}
+
+.input1 {
+  width: 85%;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 5px;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-around;
+}
