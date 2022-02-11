@@ -19,7 +19,6 @@ function Form({ todoList, setTodoList }) {
       text: '',
       completed: false,
     });
-    console.log(todo)
   };
 
   return (

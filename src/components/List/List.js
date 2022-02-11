@@ -11,8 +11,6 @@ const List = ({ todoList, setTodoList }) => {
       return todo;
     });
     setTodoList(newTodoList);
-    console.log(newTodoList)
-    console.log (clickedTodo)
   };
 
   
